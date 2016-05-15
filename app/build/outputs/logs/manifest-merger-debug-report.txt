@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:3:11-40
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:5:11-41
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:4:11-34
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:11:5-30:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:13:9-42
+	android:theme
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:17:9-39
+	android:logo
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:15:9-42
+activity#com.imooc.YnuMobile.MainActivity
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:22:17-68
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.imooc.YnuMobile.DBConnect.SQLiteActivity
+ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:27:9-29:20
+	android:name
+		ADDED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml:27:19-59
+uses-sdk
+INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [YnuMobile:ViewpagerIndicator:unspecified] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [YnuMobile:SweetDialog:unspecified] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/SweetDialog/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+		INJECTED from /home/slony/AndroidStudioProjects/YnuMobile/app/src/main/AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:22:13-58

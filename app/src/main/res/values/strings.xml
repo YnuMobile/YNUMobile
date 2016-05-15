@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧云大</string>
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">扫一扫</string>
+    <string name="menu_feedback">联系我们</string>
+    <string name="menu_addfriend">版权归属</string>
+    <string name="menu_scan">关于我们</string>
+
+</resources>

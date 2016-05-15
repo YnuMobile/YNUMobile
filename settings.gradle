@@ -1,0 +1,3 @@
+include ':app', 'SweetDialog', ':library'
+include ':ViewpagerIndicator'
+include ':SweetDialog'
