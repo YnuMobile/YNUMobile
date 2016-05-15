@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.imooc.YnuMobile.R;
 import com.imooc.YnuMobile.ViewpagerIndicator.CustomTabPageIndicator;
-import com.imooc.YnuMobile.ViewpagerIndicator.ItemFragment;
 
 /**
  * Created by 江树金 on 2016/5/4.
