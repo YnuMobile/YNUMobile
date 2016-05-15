@@ -1,307 +1,11 @@
 [
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-mdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rol_two.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\rol_two.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_start_conversation.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_start_conversation.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dot_blur.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/dot_blur.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rol_two.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/rol_two.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_emoticons.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_emoticons.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_5.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_5.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_8.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_8.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_friendslist.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_friendslist.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dot_focus.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\dot_focus.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png"
-    },
-    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_allfriends.png",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_allfriends.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dot_focus.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/dot_focus.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_9.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_9.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_2.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_2.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_8.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_8.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_7.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_7.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_friendslist.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_friendslist.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_4.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_4.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_allfriends.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_allfriends.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_6.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_6.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_9.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_9.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_3.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_3.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_7.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_7.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rol_three.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/rol_three.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_4.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_4.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_emoticons.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_emoticons.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gv_3.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\gv_3.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
@@ -316,75 +20,83 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_start_conversation.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_4.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_4.png"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rol_one.jpg",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/rol_one.jpg"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_5.jpg",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_5.jpg"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_2.png",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_2.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rol_one.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\rol_one.jpg"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dot_focus.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/dot_focus.png"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dot_blur.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/dot_blur.png"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_6.png",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_6.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rol_three.jpg",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\rol_three.jpg"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_9.jpg",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_9.jpg"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_3.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_3.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rol_two.jpg",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/rol_two.jpg"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_emoticons.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_emoticons.png"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_7.jpg",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_7.jpg"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rol_three.jpg",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/rol_three.jpg"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gv_8.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/gv_8.png"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_holo.9.png",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dot_blur.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\src\\main\\res\\drawable-mdpi\\dot_blur.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\app\\build\\intermediates\\exploded-aar\\YnuMobile\\ViewpagerIndicator\\unspecified\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_friendslist.png",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/drawable-mdpi/ic_menu_friendslist.png"
     }
 ]

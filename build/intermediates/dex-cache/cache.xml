@@ -1,3 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="/home/slony/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.0_c1eb3cedf69a223b202d3383220b0fac74bb9be0/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_b418f84cbc21192175feacc385b2fb77fea6f848/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="eb653b8980f19174f4f6318de3f5ddd0d9190956">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a3c030cd86fa6e3cbdd98609a5bff81a2e464ae5/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/libs/ImageCacheLoader.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="96eda441d0d5799764e9f2c40a3a8ed033ff594b">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/ImageCacheLoader_9fe87fd963df418d51554c2819b9676cd5953a29/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.0_e81984a816798ccff9d8ecb7baec432e3d88e135/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.0_7f2dea475a891d4872195ef8ba57c132e5319e72/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_9d5c3957154b62204ea33e8103c75b37f27828de/classes.dex" />
+    </item>
+    <item
+        jar="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e04b1973888f13a7c2c1855f318873b49d5014cc">
+        <dex dex="/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7c9cd5548c6ba2add9168a3b4ce41a8be81d8d6c/classes.dex" />
+    </item>
+
+</items>
