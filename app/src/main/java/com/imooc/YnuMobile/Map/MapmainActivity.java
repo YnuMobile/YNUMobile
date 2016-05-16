@@ -13,8 +13,4 @@ public class MapmainActivity extends Activity {
         setContentView(R.layout.activity_mapmain);
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
 }
