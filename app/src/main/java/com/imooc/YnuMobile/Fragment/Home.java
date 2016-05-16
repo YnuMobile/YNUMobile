@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.imooc.YnuMobile.ClassRewrite.CommentListView;
-import com.imooc.YnuMobile.JsonAnalysis.JsonBean;
 import com.imooc.YnuMobile.JsonAnalysis.ListAdapter;
 import com.imooc.YnuMobile.JsonAnalysis.NewsDetail;
 import com.imooc.YnuMobile.JsonAnalysis.RequestApplication;
