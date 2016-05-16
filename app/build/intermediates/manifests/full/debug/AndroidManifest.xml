@@ -28,8 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.imooc.YnuMobile.DBConnect.SQLiteActivity" >
-        </activity>
+        <activity android:name="com.imooc.YnuMobile.DBConnect.SQLiteActivity" />
+        <activity android:name="com.imooc.YnuMobile.Map.MapmainActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"

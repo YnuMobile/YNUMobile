@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\ViewpagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi__tab_indicator.xml",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/C:\\Users\\hzp93\\AndroidStudioProjects\\YnuMobile\\ViewpagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi__tab_indicator.xml"
-    },
-    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/ViewpagerIndicator/build/intermediates/res/merged/androidTest/debug/drawable/vpi__tab_indicator.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/ViewpagerIndicator/build/intermediates/bundles/debug/res/drawable/vpi__tab_indicator.xml"
     }
