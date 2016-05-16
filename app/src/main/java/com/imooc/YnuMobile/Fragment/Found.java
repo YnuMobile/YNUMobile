@@ -22,7 +22,7 @@ public class Found extends Fragment {
     CustomTabPageIndicator mTabPager;
     ViewPager mViewpager;
     private static String[] titles=new String[]{
-            "首页","发现","关于","更多"
+            "首页","发现"
     };
 
     @Override
