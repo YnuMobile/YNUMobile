@@ -26,7 +26,7 @@ import com.imooc.YnuMobile.Fragment.User;
 public class MainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener
 {
-
+	private String str="这是变化";
 	private CustomViewPager mViewPager;
 	private List<Fragment> mTabs = new ArrayList<Fragment>();
 	private FragmentPagerAdapter mAdapter;
