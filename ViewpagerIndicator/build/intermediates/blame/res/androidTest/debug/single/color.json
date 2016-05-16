@@ -4,6 +4,14 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/ViewpagerIndicator/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
     },
     {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/ViewpagerIndicator/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/ViewpagerIndicator/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/ViewpagerIndicator/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/ViewpagerIndicator/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    },
+    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/ViewpagerIndicator/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/ViewpagerIndicator/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
     }

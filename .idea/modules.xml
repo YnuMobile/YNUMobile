@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SweetDialog/SweetDialog.iml" filepath="$PROJECT_DIR$/SweetDialog/SweetDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewpagerIndicator/ViewpagerIndicator.iml" filepath="$PROJECT_DIR$/ViewpagerIndicator/ViewpagerIndicator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/YnuMobile.iml" filepath="$PROJECT_DIR$/YnuMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YNUMobile.iml" filepath="$PROJECT_DIR$/YNUMobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>

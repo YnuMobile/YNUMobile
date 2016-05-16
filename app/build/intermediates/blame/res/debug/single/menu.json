@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/menu/main.xml"
+    },
+    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/menu/main.xml"
     }

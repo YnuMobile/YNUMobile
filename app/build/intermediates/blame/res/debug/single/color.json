@@ -4,8 +4,24 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/color/common_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/exploded-aar/YNUMobile/ViewpagerIndicator/unspecified/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_dark.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/color/common_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/ViewpagerIndicator/unspecified/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/exploded-aar/YNUMobile/ViewpagerIndicator/unspecified/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_light.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/color/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",

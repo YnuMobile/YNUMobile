@@ -8,8 +8,68 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/home.xml"
     },
     {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/view_banner_content.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/view_banner_content.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/activity_sqlite.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/activity_sqlite.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/viewpager_item.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/viewpager_item.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/tabone.xml",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/tabone.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/alert_dialog.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/exploded-aar/YNUMobile/SweetDialog/unspecified/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/rollviewpager.xml",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/rollviewpager.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/user.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/user.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/viewpager_item.xml",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/viewpager_item.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/found.xml",
+        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/found.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/home.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/home.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/tabone.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/tabone.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/gridview_item.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/activity_ad_cycle.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/activity_ad_cycle.xml"
+    },
+    {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/alert_dialog.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/exploded-aar/YnuMobile/SweetDialog/unspecified/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/fragment_item.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/fragment_item.xml"
+    },
+    {
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/view_banner_content.xml",
@@ -24,16 +84,16 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/newslist.xml"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/tabone.xml",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/tabone.xml"
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/newslist.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/newslist.xml"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/rollviewpager.xml",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/rollviewpager.xml"
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/activity_mapmain.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/activity_mapmain.xml"
     },
     {
         "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/activity_mapmain.xml",
@@ -52,11 +112,11 @@
         "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/user.xml"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/viewpager_item.xml",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/viewpager_item.xml"
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/rollviewpager.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/rollviewpager.xml"
     },
     {
-        "merged": "/home/slony/AndroidStudioProjects/YnuMobile/app/build/intermediates/res/merged/debug/layout/found.xml",
-        "source": "/home/slony/AndroidStudioProjects/YnuMobile/app/src/main/res/layout/found.xml"
+        "merged": "/home/slony/AndroidStudioProjects/YNUMobile/app/build/intermediates/res/merged/debug/layout/found.xml",
+        "source": "/home/slony/AndroidStudioProjects/YNUMobile/app/src/main/res/layout/found.xml"
     }
 ]
