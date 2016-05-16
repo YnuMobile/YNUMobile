@@ -11,11 +11,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewConfiguration;
 import android.view.Window;
+import android.widget.Toast;
 
 import com.imooc.YnuMobile.ClassRewrite.ChangeColorIconWithText;
 import com.imooc.YnuMobile.ClassRewrite.CustomViewPager;
@@ -23,10 +25,12 @@ import com.imooc.YnuMobile.Fragment.Found;
 import com.imooc.YnuMobile.Fragment.Home;
 import com.imooc.YnuMobile.Fragment.User;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class MainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener
 {
-	private String str="这是变化";
+
 	private CustomViewPager mViewPager;
 	private List<Fragment> mTabs = new ArrayList<Fragment>();
 	private FragmentPagerAdapter mAdapter;
@@ -217,6 +221,26 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 
 	@Override
 	public void onPageScrollStateChanged(int state) {
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if(keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN){
+			SweetAlertDialog exitDialog=new SweetAlertDialog(MainActivity.this,SweetAlertDialog.NORMAL_TYPE);
+			exitDialog.setTitleText("退出智慧云大？");
+			exitDialog.setCancelable(true);
+			exitDialog.setCancelText("No");
+			exitDialog.setConfirmText("Yes");
+			exitDialog.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+				@Override
+				public void onClick(SweetAlertDialog sweetAlertDialog) {
+					finish();
+					System.exit(0);
+				}
+			});
+			exitDialog.show();
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 }
