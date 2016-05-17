@@ -50,7 +50,7 @@ public class Home extends Fragment{
 
     View view;
     Context context;
-    RefreshLayout refreshLayout;
+    SwipeRefreshLayout refreshLayout;
     SweetAlertDialog dialog;
     /*RollViewpager→轮播图*/
     private String[] titles;
@@ -81,7 +81,7 @@ public class Home extends Fragment{
 
     private void initView() {
         context=this.getActivity();
-        refreshLayout= (RefreshLayout) view.findViewById(R.id.id_refresh);
+        refreshLayout= (SwipeRefreshLayout) view.findViewById(R.id.id_refresh);
         refreshLayout.setColorSchemeResources(R.color.swipeRefreshLayout,
                 R.color.swipeRefreshLayout,
                 R.color.swipeRefreshLayout,
@@ -91,12 +91,6 @@ public class Home extends Fragment{
             @Override
             public void onRefresh() {
                 new Thread(new Run()).start();
-            }
-        });
-        refreshLayout.setOnLoadListener(new RefreshLayout.OnLoadListener() {
-            @Override
-            public void onLoad() {
-                Toast.makeText(getActivity(), "正在操作上拉加载步骤！", Toast.LENGTH_SHORT).show();
             }
         });
         dialog=new SweetAlertDialog(getActivity(),SweetAlertDialog.PROGRESS_TYPE);
