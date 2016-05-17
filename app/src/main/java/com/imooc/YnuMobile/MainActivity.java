@@ -91,6 +91,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	//初始化到所有控件
 	private void initView()
 	{
+
 		mViewPager = (CustomViewPager) findViewById(R.id.id_viewpager);
 		mViewPager.setOffscreenPageLimit(2);
 		ChangeColorIconWithText one = (ChangeColorIconWithText) findViewById(R.id.id_indicator_one);
