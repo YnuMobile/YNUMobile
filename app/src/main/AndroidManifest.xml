@@ -25,9 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Map.MapmainActivity"/>
-        <activity android:name=".Login.UserLogin">
-        </activity>
+        <activity
+            android:name=".Map.MapmainActivity"/>
+        <activity
+            android:name=".Login.UserLogin"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".JsonAnalysis.NewsDetail"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
