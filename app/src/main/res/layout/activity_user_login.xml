@@ -12,41 +12,20 @@
         android:layout_height="1dp"
         android:background="@drawable/tabtop"/>
 
-    <!-- 顶部banner -->
-    <RelativeLayout
-        android:id="@+id/Title_Content"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="50dp" >
-        <ImageView
-            android:id="@+id/title_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#ccc" />
-        <TextView
-            android:id="@+id/title_welcome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_toRightOf="@id/title_logo"
-            android:text="welcome"
-            android:textColor="#ffffff"
-            android:textSize="24sp" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:gravity="center">
         <TextView
             android:id="@+id/title_appname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@id/title_welcome"
-            android:layout_below="@id/title_welcome"
             android:text="智慧云大"
             android:textColor="#ffffff"
             android:textSize="36sp"
             android:textStyle="bold" />
-    </RelativeLayout>
-
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/login_content"
         android:layout_width="fill_parent"
@@ -115,7 +94,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/edit_login"
-                android:hint="Username"
+                android:hint="请输入验证码"
                 android:inputType="text"
                 android:maxLength="20"
                 android:paddingLeft="60dp"
@@ -128,7 +107,7 @@
                 android:layout_alignTop="@id/identifying"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="7dp"
-                android:background="@drawable/username" />
+                android:background="@drawable/identy" />
 
             <!-- 登录按钮 -->
             <ImageButton
