@@ -26,11 +26,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Map.MapmainActivity"/>
-        <activity
-            android:name=".JsonAnalysis.NewsDetail"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
     </application>
 
 </manifest>
