@@ -158,7 +158,9 @@ public class Home extends Fragment{
                 jsonBean.title=jsonObject.getString("title");
                 jsonBean.body=jsonObject.getString("content");
                 jsonBean.time=jsonObject.getString("time");
-                jsonList.add(0,jsonBean);//将输入传入list
+
+                String str=jsonBean.time;
+                jsonList.add(jsonBean);//将输入传入list
             }
         } catch (MalformedURLException e) {
             e.printStackTrace();
