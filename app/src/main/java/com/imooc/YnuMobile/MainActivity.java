@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
@@ -32,9 +33,11 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 {
 
 	private CustomViewPager mViewPager;
-	private List<Fragment> mTabs = new ArrayList<Fragment>();
 	private FragmentPagerAdapter mAdapter;
+
+
 	private List<ChangeColorIconWithText> mTabIndicators = new ArrayList<ChangeColorIconWithText>();
+	private List<Fragment> mTabs = new ArrayList<Fragment>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -43,7 +46,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		setContentView(R.layout.activity_main);
 		setOverflowButtonAlways();
 		//getActionBar().setDisplayShowHomeEnabled(false);
-
+		Log.i("=====ERROR=====","MainActivity.java执行onCreate。。。。。。。。");
 		initView();
 		initData();
 		mViewPager.setAdapter(mAdapter);
@@ -89,7 +92,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 	private void initView()
 	{
 		mViewPager = (CustomViewPager) findViewById(R.id.id_viewpager);
-
+		mViewPager.setOffscreenPageLimit(2);
 		ChangeColorIconWithText one = (ChangeColorIconWithText) findViewById(R.id.id_indicator_one);
 		mTabIndicators.add(one);
 		ChangeColorIconWithText two = (ChangeColorIconWithText) findViewById(R.id.id_indicator_two);

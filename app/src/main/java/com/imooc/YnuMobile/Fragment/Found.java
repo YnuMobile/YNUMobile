@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ public class Found extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
         view=inflater.inflate(R.layout.found,container,false);
+        Log.i("=====ERROR=====","Found.fragment执行onCreateView。。。。。。。。");
         initView();
         return view;
     }
@@ -86,5 +88,11 @@ public class Found extends Fragment {
         public int getCount() {
             return titles.length;
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.i("=====ERROR=====","Found.fragment执行onDestroy。。。。。。。。");
     }
 }

@@ -70,6 +70,7 @@ public class Home extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
         view=inflater.inflate(R.layout.home,container,false);
+        Log.i("=====ERROR=====","Home.fragment执行onCreateView。。。。。。。。");
         initView();
         initUI();
         initListener();
@@ -265,5 +266,11 @@ public class Home extends Fragment{
             msg1.what=2;
             handler.sendMessage(msg1);
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.i("=====ERROR=====","Home.fragment执行onDestroy。。。。。。。。");
     }
 }
