@@ -90,7 +90,6 @@ public class Home extends Fragment{
         refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                dialog.show();
                 new Thread(new Run()).start();
             }
         });
@@ -139,8 +138,7 @@ public class Home extends Fragment{
             super.onPostExecute(jsonBeen);
             listAdapter=new ListAdapter(getActivity(),jsonBeen);
             lv.setAdapter(listAdapter);
-            Toast.makeText(context, "加载完成，久等啦~", Toast.LENGTH_SHORT).show();
-            dialog.dismiss();
+            refreshLayout.setRefreshing(false);
         }
     }
 
@@ -204,10 +202,8 @@ public class Home extends Fragment{
             super.handleMessage(msg);
             if (msg.what==1){
                 new asyncTask().execute(url);
-                refreshLayout.setRefreshing(false);
             }else if (msg.what==2){
                 new asyncTask().execute(url);
-                refreshLayout.setRefreshing(false);
             }
         }
     };
