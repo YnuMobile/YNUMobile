@@ -91,6 +91,7 @@ public class Home extends Fragment{
         refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                dialog.show();
                 new Thread(new Run()).start();
             }
         });
@@ -133,7 +134,7 @@ public class Home extends Fragment{
             super.onPostExecute(jsonBeen);
             listAdapter=new ListAdapter(getActivity(),jsonBeen);
             lv.setAdapter(listAdapter);
-            refreshLayout.setRefreshing(false);
+            dialog.dismiss();
         }
     }
 
@@ -153,12 +154,11 @@ public class Home extends Fragment{
             for (int i=0;i<jsonArray.length();i++){//循环取出
                 jsonObject=jsonArray.getJSONObject(i);
                 jsonBean=new JsonBean();
-                Log.i("TAG", URLDecoder.decode(jsonObject.getString("imageurl"),"utf-8"));
                 jsonBean.url=URLDecoder.decode(jsonObject.getString("imageurl"),"utf-8");
                 jsonBean.title=jsonObject.getString("title");
                 jsonBean.body=jsonObject.getString("content");
                 jsonBean.time=jsonObject.getString("time");
-                jsonList.add(jsonBean);//将输入传入list
+                jsonList.add(0,jsonBean);//将输入传入list
             }
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -197,6 +197,7 @@ public class Home extends Fragment{
             super.handleMessage(msg);
             if (msg.what==1){
                 new asyncTask().execute(url);
+                refreshLayout.setRefreshing(false);
             }else if (msg.what==2){
                 new asyncTask().execute(url);
             }
