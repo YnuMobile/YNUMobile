@@ -1,4 +1,4 @@
-package com.imooc.YnuMobile;
+﻿package com.imooc.YnuMobile;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -48,6 +48,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		initData();
 		mViewPager.setAdapter(mAdapter);
 		initEvent();
+//1111
 
 	}
 
