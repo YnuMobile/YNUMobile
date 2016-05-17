@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.imooc.weixin6_0"
+        applicationId "com.imooc.YNUMobile"
         minSdkVersion 14
         targetSdkVersion 23
     }
