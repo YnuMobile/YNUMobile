@@ -108,6 +108,14 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="7dp"
                 android:background="@drawable/identy" />
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/captcha_image"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignRight="@id/identifying"
+                android:layout_alignTop="@id/identifying"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="7dp" />
 
             <!-- 登录按钮 -->
             <ImageButton
