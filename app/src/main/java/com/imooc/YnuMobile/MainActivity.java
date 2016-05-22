@@ -1,15 +1,9 @@
 package com.imooc.YnuMobile;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -18,7 +12,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewConfiguration;
 import android.view.Window;
-import android.widget.Toast;
 
 import com.imooc.YnuMobile.ClassRewrite.ChangeColorIconWithText;
 import com.imooc.YnuMobile.ClassRewrite.CustomViewPager;
@@ -26,15 +19,25 @@ import com.imooc.YnuMobile.Fragment.Found;
 import com.imooc.YnuMobile.Fragment.Home;
 import com.imooc.YnuMobile.Fragment.User;
 
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class MainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener
 {
 
+	/*
+	* 校历
+	* 地图
+	* 电费
+	* 通讯录
+	* */
 	private CustomViewPager mViewPager;
 	private FragmentPagerAdapter mAdapter;
-
 
 	private List<ChangeColorIconWithText> mTabIndicators = new ArrayList<ChangeColorIconWithText>();
 	private List<Fragment> mTabs = new ArrayList<Fragment>();

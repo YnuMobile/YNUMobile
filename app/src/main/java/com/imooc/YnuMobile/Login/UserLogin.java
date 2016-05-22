@@ -73,7 +73,7 @@ public class UserLogin extends Activity {
                 try {
                     tempGuid= (String) response.get("TempGuid");
                     imgGuid= (String) response.get("ImgGuid");
-                    captchaImage.setImageUrl("http://202.203.209.96/vimgs/"+imgGuid+".png",imageLoader);
+                    captchaImage.setImageUrl("http://202.203.209.96/vimgs/"+imgGuid+".png" , imageLoader);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

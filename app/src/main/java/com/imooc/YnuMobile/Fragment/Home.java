@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.imooc.YnuMobile.ClassRewrite.CommentListView;
 import com.imooc.YnuMobile.JsonAnalysis.JsonBean;
@@ -23,7 +22,6 @@ import com.imooc.YnuMobile.JsonAnalysis.NewsDetail;
 import com.imooc.YnuMobile.JsonAnalysis.RequestApplication;
 import com.imooc.YnuMobile.R;
 import com.imooc.YnuMobile.RollViewpager.RollViewPager2;
-import com.imooc.YnuMobile.View.RefreshLayout;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -99,6 +97,7 @@ public class Home extends Fragment{
         dialog.setTitleText("正在加载中...");
         dialog.setCancelable(true);
         lv= (CommentListView) view.findViewById(R.id.id_listView);
+        lv.setFocusable(false);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
