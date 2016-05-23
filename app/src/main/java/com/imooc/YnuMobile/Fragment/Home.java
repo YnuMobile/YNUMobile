@@ -1,11 +1,10 @@
 package com.imooc.YnuMobile.Fragment;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
@@ -39,8 +38,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
-
 /**
  * Created by 江树金 on 2016/5/4.
  */
@@ -49,7 +46,7 @@ public class Home extends Fragment{
     View view;
     Context context;
     SwipeRefreshLayout refreshLayout;
-    SweetAlertDialog dialog;
+    ProgressDialog dialog;
     /*RollViewpager→轮播图*/
     private String[] titles;
     private ArrayList<View> dots;
@@ -73,8 +70,7 @@ public class Home extends Fragment{
         initUI();
         initListener();
         initData();
-        //new asyncTask().execute(url);
-        new Thread(new Task()).start();
+        new asyncTask().execute(url);
         return view;
     }
 
@@ -89,12 +85,11 @@ public class Home extends Fragment{
         refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                dialog.show();
-                new Thread(new Run()).start();
+                new asyncTask().execute(url);
             }
         });
-        dialog=new SweetAlertDialog(getActivity(),SweetAlertDialog.PROGRESS_TYPE);
-        dialog.setTitleText("正在加载中...");
+        dialog=new ProgressDialog(getActivity());
+        dialog.setMessage("数据加载中...");
         dialog.setCancelable(true);
         lv= (CommentListView) view.findViewById(R.id.id_listView);
         lv.setFocusable(false);
@@ -124,6 +119,12 @@ public class Home extends Fragment{
     class  asyncTask extends AsyncTask<String,Void,List<JsonBean>> {
 
         @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            dialog.show();
+        }
+
+        @Override
         protected List<JsonBean> doInBackground(String... params) {
             return getJsonData(params[0]);
         }
@@ -133,6 +134,7 @@ public class Home extends Fragment{
             super.onPostExecute(jsonBeen);
             listAdapter=new ListAdapter(getActivity(),jsonBeen);
             lv.setAdapter(listAdapter);
+            refreshLayout.setRefreshing(false);
             dialog.dismiss();
         }
     }
@@ -148,8 +150,6 @@ public class Home extends Fragment{
             JSONArray jsonArray;
             JsonBean jsonBean;
             jsonArray=new JSONArray(jsonString);
-            //jsonObject=new JSONObject(jsonString);//将获取到的json数据传入jsonObject;
-            //JSONArray jsonArray=jsonObject.getJSONArray("answers");
             for (int i=0;i<jsonArray.length();i++){//循环取出
                 jsonObject=jsonArray.getJSONObject(i);
                 jsonBean=new JsonBean();
@@ -192,33 +192,6 @@ public class Home extends Fragment{
         return result;
     }
 
-    Handler handler=new Handler(){
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-            if (msg.what==1){
-                new asyncTask().execute(url);
-                refreshLayout.setRefreshing(false);
-            }else if (msg.what==2){
-                new asyncTask().execute(url);
-            }
-        }
-    };
-
-    private class Run implements Runnable {
-        @Override
-        public void run() {
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            Message msg=Message.obtain();
-            msg.what=1;
-            handler.sendMessage(msg);
-        }
-    }
-
     private void initUI() {
         title = (TextView) view.findViewById(R.id.title);
         rollViewPager2 = (RollViewPager2) view.findViewById(R.id.viewpager);
@@ -245,34 +218,9 @@ public class Home extends Fragment{
         uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1461732606920.jpg");
         uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1460800559770.JPG");
         uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1461679299319.jpg");
-
         rollViewPager2.setUriList(uriList);
-
         rollViewPager2.setDot(dots, R.drawable.dot_focus, R.drawable.dot_normal);
-
         rollViewPager2.setTitle(title, titles);
         rollViewPager2.startRoll();
-
-
-    }
-
-    private class Task implements Runnable {
-        @Override
-        public void run() {
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            Message msg1=Message.obtain();
-            msg1.what=2;
-            handler.sendMessage(msg1);
-        }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.i("=====ERROR=====","Home.fragment执行onDestroy。。。。。。。。");
     }
 }

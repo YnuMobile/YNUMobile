@@ -30,12 +30,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		OnPageChangeListener
 {
 
-	/*
-	* 校历
-	* 地图
-	* 电费
-	* 通讯录
-	* */
 	private CustomViewPager mViewPager;
 	private FragmentPagerAdapter mAdapter;
 
