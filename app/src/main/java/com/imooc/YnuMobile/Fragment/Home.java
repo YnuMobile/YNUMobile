@@ -7,7 +7,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,7 +64,6 @@ public class Home extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
         view=inflater.inflate(R.layout.home,container,false);
-        Log.i("=====ERROR=====","Home.fragment执行onCreateView。。。。。。。。");
         initView();
         initUI();
         initListener();
@@ -119,23 +117,23 @@ public class Home extends Fragment{
     class  asyncTask extends AsyncTask<String,Void,List<JsonBean>> {
 
         @Override
-        protected void onPreExecute() {
+        protected void onPreExecute() {//准备处理
             super.onPreExecute();
             dialog.show();
         }
 
         @Override
-        protected List<JsonBean> doInBackground(String... params) {
+        protected List<JsonBean> doInBackground(String... params) {//后台任务
             return getJsonData(params[0]);
         }
 
         @Override
-        protected void onPostExecute(List<JsonBean> jsonBeen) {
+        protected void onPostExecute(List<JsonBean> jsonBeen) {//处理耗时工作
             super.onPostExecute(jsonBeen);
             listAdapter=new ListAdapter(getActivity(),jsonBeen);
             lv.setAdapter(listAdapter);
-            refreshLayout.setRefreshing(false);
             dialog.dismiss();
+            refreshLayout.setRefreshing(false);
         }
     }
 
@@ -157,7 +155,6 @@ public class Home extends Fragment{
                 jsonBean.title=jsonObject.getString("title");
                 jsonBean.body=jsonObject.getString("content");
                 jsonBean.time=jsonObject.getString("time");
-
                 String str=jsonBean.time;
                 jsonList.add(jsonBean);//将输入传入list
             }
@@ -170,7 +167,6 @@ public class Home extends Fragment{
         }
         return jsonList;//返回list
     }
-
     /*
     * 从InputStream解析url返回的数组
     * */

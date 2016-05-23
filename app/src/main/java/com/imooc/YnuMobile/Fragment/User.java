@@ -2,8 +2,6 @@ package com.imooc.YnuMobile.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,7 +13,6 @@ import android.widget.SimpleAdapter;
 import com.imooc.YnuMobile.ClassRewrite.CommentListView;
 import com.imooc.YnuMobile.Login.UserLogin;
 import com.imooc.YnuMobile.R;
-import com.imooc.YnuMobile.View.RefreshLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -56,6 +53,7 @@ public class User extends Fragment {
         * listView→内容
         * */
         lv = (CommentListView) view.findViewById(R.id.lv);
+        lv.setFocusable(false);
         adapter = new SimpleAdapter(getActivity(), getData(), R.layout.listview_item,
                 new String[]{"img", "title"},
                 new int[]{R.id.itemimg, R.id.itemtitle});      //配置适配器

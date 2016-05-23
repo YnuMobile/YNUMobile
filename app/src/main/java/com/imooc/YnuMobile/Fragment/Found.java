@@ -1,18 +1,18 @@
 package com.imooc.YnuMobile.Fragment;
 
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
+import com.imooc.YnuMobile.Adapter.GridViewAdapter;
 import com.imooc.YnuMobile.R;
-import com.imooc.YnuMobile.ViewpagerIndicator.CustomTabPageIndicator;
+import com.imooc.YnuMobile.View.GridView;
 
 /**
  * Created by 江树金 on 2016/5/4.
@@ -20,79 +20,69 @@ import com.imooc.YnuMobile.ViewpagerIndicator.CustomTabPageIndicator;
 public class Found extends Fragment {
 
     View view;
-    CustomTabPageIndicator mTabPager;
+    /*CustomTabPageIndicator mTabPager;
     ViewPager mViewpager;
     private static String[] titles=new String[]{
-            "首页","发现"
-    };
+            "社区板块","生活服务"
+    };*/
+    GridView gridView;
+    Context context;
+    SwipeRefreshLayout refreshLayout;
+    ProgressDialog mDialog;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
         view=inflater.inflate(R.layout.found,container,false);
-        Log.i("=====ERROR=====","Found.fragment执行onCreateView。。。。。。。。");
         initView();
         return view;
     }
 
     private void initView() {
-        mTabPager= (CustomTabPageIndicator) view.findViewById(R.id.tabPager);
-        mViewpager= (ViewPager) view.findViewById(R.id.viewPager);
-        FragmentPagerAdapter adapter=new TabPageIndicatorAdapter(getActivity().getSupportFragmentManager());
-        mViewpager.setAdapter(adapter);
-        mTabPager.setViewPager(mViewpager);
-        mTabPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        gridView=(GridView) view.findViewById(R.id.gridview);
+        context=this.getActivity();
+        gridView.setAdapter(new GridViewAdapter(context));
+        refreshLayout= (SwipeRefreshLayout) view.findViewById(R.id.id_refresh);
+        refreshLayout.setColorSchemeResources(R.color.swipeRefreshLayout,
+                R.color.swipeRefreshLayout,
+                R.color.swipeRefreshLayout,
+                R.color.swipeRefreshLayout);
+        refreshLayout.setProgressViewEndTarget(true, 100);
+        refreshLayout.setProgressBackgroundColor(R.color.bg);
+        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {//切换页面的时候
-                Toast.makeText(getActivity().getApplicationContext(), titles[position], Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
+            public void onRefresh() {
+                new TaskHandler().execute();
             }
         });
+        mDialog=new ProgressDialog(getActivity());
+        mDialog.setMessage("数据加载中...");
+        mDialog.setCancelable(false);
     }
 
-    /**
-     * ViewPager适配器
-     * @author JSJ
-     *
-     */
-    class TabPageIndicatorAdapter extends FragmentPagerAdapter {
-        public TabPageIndicatorAdapter(FragmentManager fm) {
-            super(fm);
+    public class TaskHandler extends AsyncTask<Void,String,Void>{
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            mDialog.show();
         }
 
         @Override
-        public Fragment getItem(int position) {
-            //新建一个Fragment来展示ViewPager item的内容，并传递参数
-            Fragment fragment = new TabOne();
-            Bundle args = new Bundle();
-            args.putString("arg", titles[position]);
-            fragment.setArguments(args);
-            return fragment;
+        protected Void doInBackground(Void... params) {
+            try {
+                Thread.sleep(1500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return null;
         }
 
         @Override
-        public CharSequence getPageTitle(int position) {
-            return titles[position % titles.length];
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            mDialog.dismiss();
+            refreshLayout.setRefreshing(false);
         }
-
-        @Override
-        public int getCount() {
-            return titles.length;
-        }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.i("=====ERROR=====","Found.fragment执行onDestroy。。。。。。。。");
     }
 }

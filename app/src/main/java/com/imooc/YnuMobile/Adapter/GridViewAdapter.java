@@ -18,12 +18,10 @@ public class GridViewAdapter extends BaseAdapter {
 
     private Context mContext;
 
-    public String[] img_text = { "云大新闻", "云通讯录", "云大校历", "云大地图", "数字云大", "公共服务",
-            "90校庆", "校巴时刻表", "关于我们", };
-    public int[] imgs = { R.drawable.app_icon, R.drawable.gv_2,
-            R.drawable.gv_3, R.drawable.gv_4,
-            R.drawable.gv_5, R.drawable.gv_6,
-            R.drawable.gv_7, R.drawable.gv_8, R.drawable.gv_9 };
+    public String[] img_text = { "云通讯录", "云大校历", "云大地图", "公共服务",
+             "关于我们", };
+    public int[] imgs = { R.drawable.gv_2,
+            R.drawable.gv_3, R.drawable.gv_4,R.drawable.gv_6,R.drawable.gv_9 };
 
     public GridViewAdapter(Context mContext) {
         this.mContext = mContext;

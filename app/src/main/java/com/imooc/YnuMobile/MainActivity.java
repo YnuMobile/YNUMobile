@@ -1,227 +1,118 @@
 package com.imooc.YnuMobile;
 
 import android.os.Bundle;
+import android.support.annotation.IdRes;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.util.Log;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewConfiguration;
-import android.view.Window;
 
-import com.imooc.YnuMobile.ClassRewrite.ChangeColorIconWithText;
-import com.imooc.YnuMobile.ClassRewrite.CustomViewPager;
 import com.imooc.YnuMobile.Fragment.Found;
 import com.imooc.YnuMobile.Fragment.Home;
 import com.imooc.YnuMobile.Fragment.User;
+import com.roughike.bottombar.BottomBar;
+import com.roughike.bottombar.OnMenuTabClickListener;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
-public class MainActivity extends FragmentActivity implements OnClickListener,
-		OnPageChangeListener
-{
+public class MainActivity extends FragmentActivity {
 
-	private CustomViewPager mViewPager;
-	private FragmentPagerAdapter mAdapter;
+	ViewPager viewPager;
+	CoordinatorLayout myCoordinator;
 
-	private List<ChangeColorIconWithText> mTabIndicators = new ArrayList<ChangeColorIconWithText>();
-	private List<Fragment> mTabs = new ArrayList<Fragment>();
+	private BottomBar mBottomBar;
+	private List<Fragment> fragmentList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		setOverflowButtonAlways();
-		//getActionBar().setDisplayShowHomeEnabled(false);
-		Log.i("=====ERROR=====","MainActivity.java执行onCreate。。。。。。。。");
-		initView();
-		initData();
-		mViewPager.setAdapter(mAdapter);
-		initEvent();
-
+		viewPager= (ViewPager) findViewById(R.id.viewPager);
+		viewPager.setOffscreenPageLimit(2);
+		myCoordinator= (CoordinatorLayout) findViewById(R.id.mCoordinatorLayout);
+		initViewPager();
+		createBottomBar(savedInstanceState);
 	}
 
-	/**
-	 * 初始化所有事件
-	 */
-	private void initEvent()
-	{
-		mViewPager.setOnPageChangeListener(this);
-	}
-
-	//碎片加入MainActivity
-	private void initData()
-	{
-		Home home=new Home();
-		Found found=new Found();
-		User user=new User();
-		mTabs.add(home);
-		mTabs.add(found);
-		mTabs.add(user);
-
-		mAdapter = new FragmentPagerAdapter(getSupportFragmentManager())
-		{
+	private void createBottomBar(Bundle savedInstanceState) {
+		mBottomBar = BottomBar.attachShy(myCoordinator,viewPager, savedInstanceState);
+		mBottomBar.setItemsFromMenu(R.menu.bottombar_menu, new OnMenuTabClickListener() {
 			@Override
-			public int getCount()
-			{
-				return mTabs.size();
-			}
-
-			@Override
-			public Fragment getItem(int position)
-			{
-				return mTabs.get(position);
-			}
-		};
-	}
-
-	//初始化到所有控件
-	private void initView()
-	{
-
-		mViewPager = (CustomViewPager) findViewById(R.id.id_viewpager);
-		mViewPager.setOffscreenPageLimit(2);
-		ChangeColorIconWithText one = (ChangeColorIconWithText) findViewById(R.id.id_indicator_one);
-		mTabIndicators.add(one);
-		ChangeColorIconWithText two = (ChangeColorIconWithText) findViewById(R.id.id_indicator_two);
-		mTabIndicators.add(two);
-		ChangeColorIconWithText three = (ChangeColorIconWithText) findViewById(R.id.id_indicator_three);
-		mTabIndicators.add(three);
-
-		one.setOnClickListener(this);
-		two.setOnClickListener(this);
-		three.setOnClickListener(this);
-
-		one.setIconAlpha(1.0f);
-
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu)
-	{
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
-
-	private void setOverflowButtonAlways()
-	{
-		try
-		{
-			ViewConfiguration config = ViewConfiguration.get(this);
-			Field menuKey = ViewConfiguration.class
-					.getDeclaredField("sHasPermanentMenuKey");
-			menuKey.setAccessible(true);
-			menuKey.setBoolean(config, false);
-		} catch (Exception e)
-		{
-			e.printStackTrace();
-		}
-	}
-
-	/**
-	 * 设置menu显示icon
-	 */
-	@Override
-	public boolean onMenuOpened(int featureId, Menu menu)
-	{
-
-		if (featureId == Window.FEATURE_ACTION_BAR && menu != null)
-		{
-			if (menu.getClass().getSimpleName().equals("MenuBuilder"))
-			{
-				try
-				{
-					Method m = menu.getClass().getDeclaredMethod(
-							"setOptionalIconsVisible", Boolean.TYPE);
-					m.setAccessible(true);
-					m.invoke(menu, true);
-				} catch (Exception e)
-				{
-					e.printStackTrace();
+			public void onMenuTabSelected(@IdRes int menuItemId) {
+				switch (menuItemId) {
+					case R.id.bb_menu_recents:
+						viewPager.setCurrentItem(0);
+						break;
+					case R.id.bb_menu_favorites:
+						viewPager.setCurrentItem(1);
+						break;
+					case R.id.bb_menu_nearby:
+						viewPager.setCurrentItem(2);
+						break;
 				}
 			}
-		}
 
-		return super.onMenuOpened(featureId, menu);
+			@Override
+			public void onMenuTabReSelected(@IdRes int menuItemId) {
+
+			}
+		});
+
+		// Setting colors for different tabs when there's more than three of them.
+		// You can set colors for tabs in three different ways as shown below.
+		mBottomBar.mapColorForTab(0, ContextCompat.getColor(this, R.color.colorAccent));
+		mBottomBar.mapColorForTab(1, ContextCompat.getColor(this, R.color.colorAccent));
+		mBottomBar.mapColorForTab(2, ContextCompat.getColor(this, R.color.colorAccent));
 	}
 
 	@Override
-	public void onClick(View v)
-	{
-		clickTab(v);
-
+	public void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		// Necessary to restore the BottomBar's state, otherwise we would
+		// lose the current tab on orientation change.
+		mBottomBar.onSaveInstanceState(outState);
 	}
 
-	/**
-	 * 点击Tab按钮
-	 * 
-	 * 颜色渐变（这里取消了滑动事件→失效）
-	 */
-	private void clickTab(View v)
-	{
-		resetOtherTabs();
+	private void initViewPager() {
+		fragmentList = new ArrayList<>();
+		fragmentList.add(new Home());
+		fragmentList.add(new Found());
+		fragmentList.add(new User());
+		viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
+			@Override
+			public Fragment getItem(int position) {
+				return fragmentList.get(position);
+			}
 
-		//点击变色事件
-		switch (v.getId())
-		{
-		case R.id.id_indicator_one:
-			mTabIndicators.get(0).setIconAlpha(1.0f);
-			mViewPager.setCurrentItem(0, false);
-			break;
-		case R.id.id_indicator_two:
-			mTabIndicators.get(1).setIconAlpha(1.0f);
-			mViewPager.setCurrentItem(1, false);
-			break;
-		case R.id.id_indicator_three:
-			mTabIndicators.get(2).setIconAlpha(1.0f);
-			mViewPager.setCurrentItem(2, false);
-			break;
-		}
-	}
+			@Override
+			public int getCount() {
+				return fragmentList.size();
+			}
+		});
+		viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+			@Override
+			public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
-	/**
-	 * 重置其他的TabIndicator的颜色
-	 */
-	private void resetOtherTabs()
-	{
-		for (int i = 0; i < mTabIndicators.size(); i++)
-		{
-			mTabIndicators.get(i).setIconAlpha(0);
-		}
-	}
+			}
 
-	@Override
-	public void onPageScrolled(int position, float positionOffset,
-			int positionOffsetPixels)
-	{
-		// Log.e("TAG", "position = " + position + " ,positionOffset =  "
-		// + positionOffset);
-		if (positionOffset > 0)
-		{
-			ChangeColorIconWithText left = mTabIndicators.get(position);
-			ChangeColorIconWithText right = mTabIndicators.get(position + 1);
-			left.setIconAlpha(1 - positionOffset);
-			right.setIconAlpha(positionOffset);
-		}
+			@Override
+			public void onPageSelected(int position) {
+				mBottomBar.selectTabAtPosition(position, true);
+			}
 
-	}
+			@Override
+			public void onPageScrollStateChanged(int state) {
 
-	@Override
-	public void onPageSelected(int position) {
-	}
+			}
+		});
 
-	@Override
-	public void onPageScrollStateChanged(int state) {
 	}
 
 	@Override
@@ -243,5 +134,4 @@ public class MainActivity extends FragmentActivity implements OnClickListener,
 		}
 		return super.onKeyDown(keyCode, event);
 	}
-
 }
