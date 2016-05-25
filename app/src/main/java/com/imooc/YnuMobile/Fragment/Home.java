@@ -197,9 +197,12 @@ public class Home extends Fragment{
     }
 
     private void initData() {
-        titles = new String[] { "云南大学启动K栈正式启动", "学长学姐的银色光辉毕业季开始了", "陈豪省长到校调研一带一路线战略研究院..."
-                , "省部共建云南生物资源保护与利用国家重点实验室..",
-                "云大“院士林”：经年之后将长成参天大树..." };
+        titles = new String[] {
+                "学校召开学习贯彻习近平总书记关于哲学社会科学工作重要讲话精神座谈会",
+                "呈贡校区楠苑学生公寓1栋、3栋消防工程通过专项验收",
+                "国家863计划课题“面向多业务融合的软件定义网络（SDN）”规模试验与验证研讨会召开...",
+                "一带一路”背景下如何培养缅甸语人才 专家学者云大研讨",
+                "云南大学出版社“丝路书香工程”面向东南亚小语种翻译人才培训项目启动" };
 
         dots = new ArrayList<View>();
         dots.add(view.findViewById(R.id.dot_0));
@@ -209,11 +212,11 @@ public class Home extends Fragment{
         dots.add(view.findViewById(R.id.dot_4));
 
         uriList = new ArrayList<String>();
-        uriList.add("http://www.news.ynu.edu.cn/picture/images/201603/1458381567742.jpg");
-        uriList.add("http://www.ynu.edu.cn/images/content/2013-12/20131022162236810671.jpg");
-        uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1461732606920.jpg");
-        uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1460800559770.JPG");
-        uriList.add("http://www.news.ynu.edu.cn/picture/images/201604/1461679299319.jpg");
+        uriList.add("http://www.news.ynu.edu.cn/zhxw/images/201605/1464017895498.JPG");
+        uriList.add("http://www.news.ynu.edu.cn/xysd/images/201605/1463993222616.jpg");
+        uriList.add("http://www.news.ynu.edu.cn/xysd/images/201605/1463983723652.jpg");
+        uriList.add("http://www.news.ynu.edu.cn/zhxw/images/201605/1463968642511.JPG");
+        uriList.add("http://www.news.ynu.edu.cn/xysd/images/201605/1463725301698.jpg");
         rollViewPager2.setUriList(uriList);
         rollViewPager2.setDot(dots, R.drawable.dot_focus, R.drawable.dot_normal);
         rollViewPager2.setTitle(title, titles);

@@ -10,13 +10,9 @@
             android:layout_height="0dp">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@drawable/tabtop"/>
-            <LinearLayout
-                android:layout_width="match_parent"
                 android:layout_height="175dp"
                 android:orientation="vertical"
-                android:background="@drawable/login_bg"
+                android:background="@drawable/bg_login"
                 android:gravity="center">
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -25,7 +21,7 @@
                     android:gravity="center">
                     <Button
                         android:layout_width="220dp"
-                        android:layout_height="50dp"
+                        android:layout_height="40dp"
                         android:text="URP登陆"
                         android:id="@+id/login"
                         android:onClick="Login"
@@ -33,12 +29,6 @@
                         android:background="@drawable/login_style"/>
                 </LinearLayout>
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="0dp"
-                android:background="@drawable/tabtop"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

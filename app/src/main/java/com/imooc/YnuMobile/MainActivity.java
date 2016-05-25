@@ -25,13 +25,11 @@ public class MainActivity extends FragmentActivity {
 
 	ViewPager viewPager;
 	CoordinatorLayout myCoordinator;
-
 	private BottomBar mBottomBar;
 	private List<Fragment> fragmentList;
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState)
-	{
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		viewPager= (ViewPager) findViewById(R.id.viewPager);

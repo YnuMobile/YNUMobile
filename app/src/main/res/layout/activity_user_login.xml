@@ -9,12 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@drawable/tabtop"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="100dp"
         android:orientation="horizontal"
         android:gravity="center">
         <TextView
@@ -29,7 +24,7 @@
     <LinearLayout
         android:id="@+id/login_content"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:background="#00000000"
         android:orientation="vertical" >
 
@@ -37,7 +32,7 @@
             android:id="@+id/login_content_relative"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:paddingTop="30dp" >
+            android:paddingTop="10dp" >
             <!-- 用户输入框 -->
             <EditText
                 android:id="@+id/login_username"
@@ -125,7 +120,7 @@
                 android:layout_below="@id/identifying"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:background="#99C29B" />
+                android:background="#9E998D" />
             <TextView
                 android:id="@+id/login_btn_string"
                 android:layout_width="wrap_content"
@@ -135,8 +130,7 @@
                 android:layout_marginTop="5dp"
                 android:text="登陆"
                 android:textColor="#ffffff"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textSize="30sp" />
 
         </RelativeLayout>
 
