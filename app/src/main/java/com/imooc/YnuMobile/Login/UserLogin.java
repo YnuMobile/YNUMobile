@@ -5,10 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -71,7 +69,7 @@ public class UserLogin extends Activity {
             public void onResponse(JSONObject response) {
                 Log.d("TAG", response.toString());
                 try {
-                    tempGuid= (String) response.get("TempGuid");
+                    tempGuid= (String) response.get("TempGuid");//返回一串
                     imgGuid= (String) response.get("ImgGuid");
                     captchaImage.setImageUrl("http://202.203.209.96/vimgs/"+imgGuid+".png" , imageLoader);
                 } catch (JSONException e) {
@@ -109,7 +107,6 @@ public class UserLogin extends Activity {
                 value.put("password", passwd + "|" + captcha + "*" + tempGuid);
                 value.put("client_id", "ynumisSite");
 
-
                 JSONObject jsonObject=new JSONObject(value);
                 Log.d("TAG", jsonObject.toString());
 
@@ -118,7 +115,6 @@ public class UserLogin extends Activity {
                     public void onResponse(JSONObject response) {
                         Log.d("TAG",response.toString());
                         try {
-
                             VolleySingleton.setMyCookie("Bearer "+response.getString("access_token"));
                             Log.d("TAG",VolleySingleton.getMyCookie());
                             Intent intent = new Intent(UserLogin.this,MainActivity.class);

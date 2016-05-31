@@ -7,11 +7,13 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.imooc.YnuMobile.ClassRewrite.CommentListView;
 import com.imooc.YnuMobile.JsonAnalysis.JsonBean;
@@ -20,6 +22,7 @@ import com.imooc.YnuMobile.JsonAnalysis.NewsDetail;
 import com.imooc.YnuMobile.JsonAnalysis.RequestApplication;
 import com.imooc.YnuMobile.R;
 import com.imooc.YnuMobile.RollViewpager.RollViewPager2;
+import com.imooc.YnuMobile.View.RefreshLayout;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -44,7 +47,7 @@ public class Home extends Fragment{
 
     View view;
     Context context;
-    SwipeRefreshLayout refreshLayout;
+    RefreshLayout refreshLayout;
     ProgressDialog dialog;
     /*RollViewpager→轮播图*/
     private String[] titles;
@@ -69,12 +72,13 @@ public class Home extends Fragment{
         initListener();
         initData();
         new asyncTask().execute(url);
+        dialog.show();
         return view;
     }
 
     private void initView() {
         context=this.getActivity();
-        refreshLayout= (SwipeRefreshLayout) view.findViewById(R.id.id_refresh);
+        refreshLayout= (RefreshLayout) view.findViewById(R.id.id_refresh);
         refreshLayout.setColorSchemeResources(R.color.swipeRefreshLayout,
                 R.color.swipeRefreshLayout,
                 R.color.swipeRefreshLayout,
@@ -84,6 +88,13 @@ public class Home extends Fragment{
             @Override
             public void onRefresh() {
                 new asyncTask().execute(url);
+            }
+        });
+        refreshLayout.setOnLoadListener(new RefreshLayout.OnLoadListener() {
+            @Override
+            public void onLoad() {
+                Toast.makeText(getActivity(), "上拉加载数据中...", Toast.LENGTH_SHORT).show();
+                Log.i("TAG","done");
             }
         });
         dialog=new ProgressDialog(getActivity());

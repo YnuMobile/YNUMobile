@@ -1,7 +1,6 @@
 package com.imooc.YnuMobile.JsonAnalysis;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.imooc.YnuMobile.R;
 
@@ -60,7 +60,8 @@ public class ListAdapter extends BaseAdapter {
             viewHolder.img.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.i("========点击了头像========", "点击事件启动-------------- ");
+                    Log.i("========图片点击事件========", "点击事件启动-------------- ");
+                    Toast.makeText(context, "图片被点击", Toast.LENGTH_SHORT).show();
                 }
             });
             viewHolder.title= (TextView) convertView.findViewById(R.id.title);

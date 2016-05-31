@@ -3,7 +3,6 @@ package com.imooc.YnuMobile.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,7 +32,6 @@ public class User extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
         view=inflater.inflate(R.layout.user,container,false);
-        Log.i("=====ERROR=====","user.fragment执行onCreateView。。。。。。。。");
         initView();
         return view;
     }
@@ -96,11 +94,5 @@ public class User extends Fragment {
         list.add(map);
 
         return list;
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.i("=====ERROR=====","User.fragment执行onDestroy。。。。。。。。");
     }
 }

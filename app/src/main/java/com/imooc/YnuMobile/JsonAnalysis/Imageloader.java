@@ -63,9 +63,8 @@ public class Imageloader {
             HttpURLConnection connection= (HttpURLConnection) url.openConnection();
             is=new BufferedInputStream(connection.getInputStream());//获取InputStream对象
             bitmap= BitmapFactory.decodeStream(is);
-            //资源释放，优化作用
             connection.disconnect();
-            return bitmap;
+            return bitmap;//拿到资源
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
